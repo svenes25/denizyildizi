@@ -7,14 +7,14 @@
 		
 		
 	</head>
-	
-	<body>
-	
+
+	<body style="background-color: 	#e0ffff">
+		
 		<ul>
 		
 			<li>
 			
-				<a href="index.php"><b>Anasayfa</b></a>
+				<a href="anasayfa.php"><b>Anasayfa</b></a>
 			
 			</li>
 			
@@ -32,19 +32,57 @@
 			
 			<li style="float :right">
 			
-				<a href="giris.php"><b class="active">Giriş Yap</b></a>
+				<a href="index.php"><b class="active">Giriş Yap</b></a>
 			
 			</li>
 		
 		</ul>
-		
 		<br><br><br><br>
+		<h2>BİR DENİZ YILDIZININ ÖYKÜSÜ</h2>
+
+		<div>
+
 		
-		<div class="panel" align="center">
+
+
+		<div style="float: left;" class="hikaye">
 		
+			<pre style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+Bir adam okyanus sahilinde yürüyüş yaparken, denize telaşla bir şeyler atan bir adama rastlar. Biraz
+daha yaklaşınca bu kişinin, sahile vurmuş denizyıldızlarını denize attığını fark eder. “Niçin bu 
+denizyıldızlarını denize atıyorsunuz?” diye sorar. Topladıklarını hızla denize atmaya devam eden 
+kişi? “yaşamaları için” yanıtını verir. Adam bu defa “iyi ama burada binlerce denizyıldızı var. Hepsini
+atmanıza imkân yok. Sizin bunları atmanız neyi değiştirecek ki?” der. Yerden bir denizyıldızı daha 
+alıp denize atan kişi, “bak onun için çok şey değişti” karşılığını verir. Hiçbirimiz herkesin hayatını 
+değiştiremeyiz, ama en azından bir kişinin, yalnızca bir kişinin, biz var olduğumuz için daha iyi halde 
+yaşamasını sağlayabiliriz.
+
+En güzel kıvamda, en güzel biçimde yaratılan insana has özellikler, somut güzelliğin yanında soyut 
+güzelliklerle beraber algılanmalıdır. Ahlaki, ruhi ve zihni güzellikleri beraberinde barındıran insan, 
+Yüce Yaratıcının verdiği değerle mahlûkların en şereflisi olarak yaratılmıştır. Dolayısıyla kıymetli ve 
+özenle yetiştirilmesi gereken bir varlıktır.
+
+Birçok insan; yaşamla yetebildiği ölçüde mücadele etmektedir. Herkesin bildiği gibi, yaşam ne her 
+zaman aydınlık, ne de her zaman karanlıktır. Önemli olan yaşamı tüm yönleriyle tanıyıp, kabul 
+edebilmek, mücadele edebilmektir.
+
+Fakat her insan mahiyetinde yer alan güzel özelliklerini her zaman kullanamamaktadır. Yanlış 
+düşüncelerle hem kendini yıpratmakta, hem de kendine zarar vermektedir.
+
+Her geçen gün önemli değerlerin yok olduğu dünyamızda, yegâne çıkış yolumuz eğitimdir. Güzel 
+insanlarımızın en iyi şekilde yetişmesini sağlamak, onların hayat maratonundan yenik ayrılmasına 
+engel olmak ancak eğitim kalitemizin arttırılmasıyla mümkün olacaktır. 
+			</pre>
+			<p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">DENiZ YILDIZLARININ HAYATINA IŞIK TUTMAK İSTEMEZ MİSİN ?</p>
+		</div>
+
+
+		
+		<div class="panel" style="float: right;">
+	
 			<div class="giris">
 				
-				<div class="baslik">Giris Yap</div>
+				<div class="baslik">Menti Girişi </div>
 				
 					<form method="POST" action="girisform">
 					
@@ -56,25 +94,45 @@
 			
 			</div>
 			
-			<div class="kayit" align="center">
+
+			<div class="kayit" align="center" style="float: left;">
 				
-				<div class="baslik">Kayıt Ol</div>
+				<div class="baslik">Kullanıcı Kayıt</div>
 				
 					<form>
 					
-						<input type="text" placeholder="İsim">
-						<input type="text" placeholder="Soyisim">
-						<input type="email" placeholder="Mail">
-						<input type="password" placeholder="Şifre">
-						<input type="password" placeholder="Şifre Tekrar">
-						<input type="submit" value="Kayıt" class="button">
+						<input type="text" placeholder="İsim" name="kisim">
+						<input type="text" placeholder="Soyisim" name="ksoyisim">
+						<input type="email" placeholder="Mail" name="kmail">
+						<input type="password" placeholder="Şifre" name="ksifre">
+						<input type="password" placeholder="Şifre Tekrar" name="ksifretekrar">
+						<input type="submit" value="Kayıt" class="button" name="ksumbit">
 					
 					</form>
 			
 			</div>
+
+
+			<div class="kayit2" align="center">
+				
+				<div class="baslik">MentörKayıt</div>
+				
+					<form>
+					
+						<input type="text" placeholder="İsim" name="misim">
+						<input type="text" placeholder="Soyisim" name="msoyisim">
+						<input type="email" placeholder="Mail" name="mmail">
+						<input type="password" placeholder="Şifre" name="msifre">
+						<input type="password" placeholder="Şifre Tekrar" name="msifretekrar">
+						<input type="submit" value="Kayıt" class="button" name="msumbit">
+					
+					</form>
+			
+			</div>
+
 		
 		</div>
-		
+		</div>
 	</body>
 
 </html>
