@@ -1,0 +1,144 @@
+ul
+{
+		
+	list-style-type: none;
+	margin: 10;
+	padding: 10;
+	overflow: hidden;
+	background-color: Red;
+	position: fixed;
+	top: 0;
+	width: 96%;
+}
+li 
+{
+
+	float: left;
+	border-right: 1px solid gray;
+
+}
+li b 
+{
+			
+	display: inline-block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+			
+}
+
+li b:hover:not(.active) 
+{
+	background-color: #111;		
+	animation-name: example;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+			
+}
+li a
+{
+	
+	color:yellow;
+	
+}
+.active 
+{
+			
+	background-color: white;
+	color: black;
+			
+}
+@keyframes example 
+{
+		 
+	from {background-color: red;}
+	to {background-color: white;}
+
+}
+.giris{
+
+    width: 200px;
+    background-color:white;
+    float: left;
+	margin-right:10px;
+	padding:10px
+
+}
+.kayit{ 	
+	
+	width: 200px;
+    background: white;
+    float: left;
+	margin-right:10px;
+	padding:10px
+
+}
+.baslik{
+   
+	background: #1c6071;
+    padding: inherit;
+    text-align: center;
+	margin: 10;
+	border-radius: 50px 50px 15px 15px;
+
+}
+.panel{
+    
+	background-color:green;
+	float: center;
+	width: 460px;
+    margin: auto;
+	height: 300px;
+    padding: 90px;
+
+}
+input[type=text]{
+
+	width: 100%;
+	padding: 6px 10px;
+	margin: 2px 0;
+	display: inline-block;
+	border: 2px solid #ccc;
+	border-radius: 8px;
+	box-sizing: border-box;
+
+}
+input[type=email]{
+
+	width: 100%;
+	padding: 6px 10px;
+	margin: 2px 0;
+	display: inline-block;
+	border: 2px solid #ccc;
+	border-radius: 8px;
+	box-sizing: border-box;
+
+}
+input[type=password]{
+
+	width: 100%;
+	padding: 6px 10px;
+	margin: 2px 0;
+	display: inline-block;
+	border: 2px solid #ccc;
+	border-radius: 8px;
+	box-sizing: border-box;
+
+}
+.button {
+	
+	background-color: #008CBA;
+	border: none;
+	color: white;
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 15px 15px 50px 50px;
+	width: 100%;
+		
+}
